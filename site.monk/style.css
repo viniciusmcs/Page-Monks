@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    background: black;
+    margin: auto;
+    
+}
+
+.hero .logo img {
+    max-width: 300px;
+}
+
+header .categories nav ul{
+    list-style-type: none;
+}
+
+header .categories nav ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header .categories nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    display:inline-block;
+    transition: .2s;
+}
+
+.categories nav a:hover{
+    transform: scale(1.05);
+}
+
+header .hero-text{
+    flex-direction: column;
+}
+
+ .hero-text h1  {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fff;
+    flex-direction: column;
+}
+
+.hero-text p  {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    color: #fff;
+    flex-direction: column;
+}
+
+.hero-image img {
+    width: 400px;
+    max-width: 100%;
+}
+
+.produtos, .galeria, .app, .tags, .cards, .formulario {
+    padding: 60px 0;
+}
+
+.produto-cards, .galeria-images, .app-buttons, .tags-container, .cards-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.produto-card, .card, .tag {
+    flex: 1 1 22%;
+    margin: 10px;
+    text-align: center;
+}
+
+.produto-card img, .galeria-images img {
+    width: 100%;
+    height: auto;
+}
+
+.card {
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.tag {
+    padding: 10px;
+    background: #e0e0e0;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+}
+
+.form-left img {
+    max-width: 300px;
+    margin-right: 30px;
+}
+
+.security-verification {
+    margin-bottom: 20px;
+}
+
+#submit-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.separator {
+    height: 3px;
+    background-color: #9b59b6;
+    margin: 40px 0;
+}
+
+footer {
+    padding: 40px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer nav a {
+    color: #fff;
+    margin: 0 15px;
+}
+
+/* Ajuste para os botões do app */
+.app-buttons a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.app-buttons a:hover {
+    background-color: #0056b3;
+}
